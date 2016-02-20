@@ -4,9 +4,9 @@ Perform WiFi scans from python in OSX
 This module uses the airport utility to perform a wifi scan, parses stdout and
 returns a list of dictionaries with all the info regarding each Access Point.
 
-## Using the module
+## Testing the script:
 
-Using the module is as simple as this:
+Using the module from the interpreter is as simple as this:
 
 ```
 $ git clone https://github.com/Palantir555/airport_scanner_py.git
@@ -20,9 +20,10 @@ Python 2.7.9 (default, Jan  7 2015, 11:49:12)
 >>>
 ```
 
-## Using the module from your script
+## Importing the module from your script
 
-First clone this repo into the folder where your script is. Then you can simply:
+First of all you need to clone this repo into the folder where your script is.
+Then you can simply:
 
 ```
 import airport_scanner_py.airport as airport
