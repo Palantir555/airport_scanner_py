@@ -41,8 +41,8 @@ for ap in networks_list:
 
 ## The airport utility
 
-`airport\_scanner.py` assumes your airport utility is located in the default path:
+`airport_scanner.py` assumes your airport utility is located in the default path:
 `/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport`
 
 If for any reason your airport utility is not there, update the
-`airport.airport\_cmd` variable to fit your system.
+`airport.airport_cmd` variable to fit your system.
